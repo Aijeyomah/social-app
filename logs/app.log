@@ -1,0 +1,992 @@
+[Thu, 13 May 2021 13:08:28 GMT] - [31merror[39m: uncaughtException: redisDB is not defined
+/Users/aijey_omah/Documents/stream-music-api/config/app.js:1
+ReferenceError: redisDB is not defined
+    at appConfig (/Users/aijey_omah/Documents/stream-music-api/config/app.js:28:3)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:12:1)
+    at Generator.next (<anonymous>)
+[Thu, 13 May 2021 13:08:32 GMT] - [31merror[39m: uncaughtException: redisDB is not defined
+/Users/aijey_omah/Documents/stream-music-api/config/app.js:1
+ReferenceError: redisDB is not defined
+    at appConfig (/Users/aijey_omah/Documents/stream-music-api/config/app.js:28:3)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:12:1)
+    at Generator.next (<anonymous>)
+[Thu, 13 May 2021 13:08:39 GMT] - [31merror[39m: uncaughtException: redisDB is not defined
+/Users/aijey_omah/Documents/stream-music-api/config/app.js:1
+ReferenceError: redisDB is not defined
+    at appConfig (/Users/aijey_omah/Documents/stream-music-api/config/app.js:28:3)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:12:1)
+    at Generator.next (<anonymous>)
+[Thu, 13 May 2021 13:08:56 GMT] - [31merror[39m: uncaughtException: redisDB is not defined
+/Users/aijey_omah/Documents/stream-music-api/config/app.js:1
+ReferenceError: redisDB is not defined
+    at appConfig (/Users/aijey_omah/Documents/stream-music-api/config/app.js:28:3)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:12:1)
+    at Generator.next (<anonymous>)
+[Thu, 13 May 2021 13:09:07 GMT] - [32minfo[39m: smart stream system is running on PORT undefined
+[Thu, 13 May 2021 13:09:22 GMT] - [32minfo[39m: undefined undefined
+[Thu, 13 May 2021 13:09:27 GMT] - [32minfo[39m: undefined undefined
+[Thu, 13 May 2021 13:09:32 GMT] - [32minfo[39m: undefined undefined
+[Thu, 13 May 2021 13:09:34 GMT] - [32minfo[39m: undefined undefined
+[Thu, 13 May 2021 13:09:38 GMT] - [31merror[39m: uncaughtException: LIMS_SYSTEM_RUNNING is not defined
+ReferenceError: LIMS_SYSTEM_RUNNING is not defined
+    at Server.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/config/app.js:31:20)
+    at Object.onceWrapper (node:events:482:28)
+    at Server.emit (node:events:376:20)
+    at Server.EventEmitter.emit (node:domain:470:12)
+    at emitListeningNT (node:net:1329:10)
+    at processTicksAndRejections (node:internal/process/task_queues:79:21)
+    at process.runNextTicks [as _tickCallback] (node:internal/process/task_queues:62:3)
+    at node:internal/main/run_main_module:17:47
+[Thu, 13 May 2021 13:09:45 GMT] - [32minfo[39m: undefined undefined
+[Thu, 13 May 2021 13:10:50 GMT] - [32minfo[39m: undefined undefined
+[Thu, 13 May 2021 13:11:12 GMT] - [32minfo[39m: undefined 3040
+[Thu, 13 May 2021 13:11:26 GMT] - [32minfo[39m: undefined 3040
+[Thu, 13 May 2021 13:11:27 GMT] - [32minfo[39m: undefined 3040
+[Thu, 13 May 2021 13:11:33 GMT] - [32minfo[39m: undefined 3040
+[Thu, 13 May 2021 13:11:34 GMT] - [32minfo[39m: undefined 3040
+[Thu, 13 May 2021 13:30:17 GMT] - [32minfo[39m: undefined 3040
+[Thu, 13 May 2021 13:30:36 GMT] - [31merror[39m: uncaughtException: STREAM_POSTGRES_DEV_URL is not defined
+/Users/aijey_omah/Documents/stream-music-api/config/app.js:1
+ReferenceError: STREAM_POSTGRES_DEV_URL is not defined
+    at appConfig (/Users/aijey_omah/Documents/stream-music-api/config/app.js:29:23)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:12:1)
+    at Generator.next (<anonymous>)
+[Thu, 13 May 2021 13:30:38 GMT] - [31merror[39m: uncaughtException: STREAM_POSTGRES_DEV_URL is not defined
+/Users/aijey_omah/Documents/stream-music-api/config/app.js:1
+ReferenceError: STREAM_POSTGRES_DEV_URL is not defined
+    at appConfig (/Users/aijey_omah/Documents/stream-music-api/config/app.js:29:23)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:12:1)
+    at Generator.next (<anonymous>)
+[Thu, 13 May 2021 13:30:41 GMT] - [31merror[39m: uncaughtException: STREAM_POSTGRES_DEV_URL is not defined
+/Users/aijey_omah/Documents/stream-music-api/config/app.js:1
+ReferenceError: STREAM_POSTGRES_DEV_URL is not defined
+    at appConfig (/Users/aijey_omah/Documents/stream-music-api/config/app.js:29:23)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:12:1)
+    at Generator.next (<anonymous>)
+[Thu, 13 May 2021 13:30:44 GMT] - [31merror[39m: uncaughtException: STREAM_POSTGRES_DEV_URL is not defined
+/Users/aijey_omah/Documents/stream-music-api/config/app.js:1
+ReferenceError: STREAM_POSTGRES_DEV_URL is not defined
+    at appConfig (/Users/aijey_omah/Documents/stream-music-api/config/app.js:29:23)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:12:1)
+    at Generator.next (<anonymous>)
+[Thu, 13 May 2021 13:30:51 GMT] - [31merror[39m: uncaughtException: STREAM_POSTGRES_DEV_URL is not defined
+/Users/aijey_omah/Documents/stream-music-api/config/app.js:1
+ReferenceError: STREAM_POSTGRES_DEV_URL is not defined
+    at appConfig (/Users/aijey_omah/Documents/stream-music-api/config/app.js:29:23)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:12:1)
+    at Generator.next (<anonymous>)
+[Thu, 13 May 2021 13:30:53 GMT] - [32minfo[39m: undefined 3040
+[Thu, 13 May 2021 13:31:03 GMT] - [32minfo[39m: smart stream stream is running on PORT 3040
+[Thu, 13 May 2021 13:31:13 GMT] - [32minfo[39m: smart stream is running on PORT 3040
+[Thu, 13 May 2021 13:31:20 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Thu, 13 May 2021 13:34:19 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Thu, 13 May 2021 13:34:45 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:20:27 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:20:50 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:21:48 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:33:54 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:34:22 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:34:42 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:37:45 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:37:46 GMT] - [31merror[39m: uncaughtException: moduleErrLogMessager is not defined
+ReferenceError: moduleErrLogMessager is not defined
+    at userLoginEmailValidator (/Users/aijey_omah/Documents/stream-music-api/app/middleware/auth/basic.js:68:9)
+[Sat, 15 May 2021 00:38:01 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:38:01 GMT] - [31merror[39m: Error verifying existence of undefined, try again. - RangeError - Variable $2 out of range. Parameters array length: 1
+[Sat, 15 May 2021 00:38:01 GMT] - [31merror[39m: uncaughtException: STAFF_EMAIL_EXIST_VERIFICATION_FAIL_MSG is not defined
+ReferenceError: STAFF_EMAIL_EXIST_VERIFICATION_FAIL_MSG is not defined
+    at userLoginEmailValidator (/Users/aijey_omah/Documents/stream-music-api/app/middleware/auth/basic.js:72:37)
+[Sat, 15 May 2021 00:38:25 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:38:31 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:38:36 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:38:38 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:38:43 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:38:45 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:38:46 GMT] - [31merror[39m: Error verifying existence of undefined, try again. - RangeError - Variable $2 out of range. Parameters array length: 1
+[Sat, 15 May 2021 00:38:46 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of undefined, try again. - /api/v1/auth/login - POST - ::1
+[Sat, 15 May 2021 00:39:17 GMT] - [31merror[39m: Error verifying existence of undefined, try again. - RangeError - Variable $2 out of range. Parameters array length: 1
+[Sat, 15 May 2021 00:39:17 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of undefined, try again. - /api/v1/auth/login - POST - ::1
+[Sat, 15 May 2021 00:39:43 GMT] - [31merror[39m: Error verifying existence of undefined, try again. - RangeError - Variable $2 out of range. Parameters array length: 1
+[Sat, 15 May 2021 00:39:43 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of undefined, try again. - /api/v1/auth/login - POST - ::1
+[Sat, 15 May 2021 00:43:58 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:44:26 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:45:21 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:45:22 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:45:31 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:45:36 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:45:38 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:45:41 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:45:54 GMT] - [31merror[39m: uncaughtException: errorResponse is not defined
+ReferenceError: errorResponse is not defined
+    at /Users/aijey_omah/Documents/stream-music-api/app/middleware/validations/index.js:21:7
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[Sat, 15 May 2021 00:46:08 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:46:10 GMT] - [31merror[39m: ApiError - 400 - email should is required - /api/v1/auth/login - POST - ::1
+[Sat, 15 May 2021 00:46:16 GMT] - [31merror[39m: ApiError - 400 - password should not be less than 100 characters - /api/v1/auth/login - POST - ::1
+[Sat, 15 May 2021 00:46:34 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:46:38 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:46:39 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:46:42 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:46:43 GMT] - [31merror[39m: Error verifying existence of undefined, try again. - RangeError - Variable $2 out of range. Parameters array length: 1
+[Sat, 15 May 2021 00:46:43 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of undefined, try again. - /api/v1/auth/login - POST - ::1
+[Sat, 15 May 2021 00:47:36 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:47:42 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:47:43 GMT] - [31merror[39m: Error verifying existence of elena@gmail.com, try again. - RangeError - Variable $2 out of range. Parameters array length: 1
+[Sat, 15 May 2021 00:47:43 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of elena@gmail.com, try again. - /api/v1/auth/login - POST - ::1
+[Sat, 15 May 2021 00:49:25 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:49:32 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:49:34 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:49:36 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:49:37 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:49:42 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:49:46 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:50:06 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:50:13 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:50:15 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:50:18 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:50:21 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:50:24 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:50:28 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:50:47 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:50:49 GMT] - [31merror[39m: Error verifying existence of elena@gmail.com, try again. - RangeError - Variable $2 out of range. Parameters array length: 1
+[Sat, 15 May 2021 00:50:49 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of elena@gmail.com, try again. - /api/v1/auth/login - POST - ::1
+[Sat, 15 May 2021 00:51:40 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:53:43 GMT] - [31merror[39m: Error verifying existence of elena@gmail.com, try again. - TypeError - genericErrors.inValidLogin is not a function
+[Sat, 15 May 2021 00:53:43 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of elena@gmail.com, try again. - /api/v1/auth/login - POST - ::1
+[Sat, 15 May 2021 00:54:37 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:54:41 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:54:45 GMT] - [31merror[39m: ApiError - 401 - Invalid elena@gmail.com/password  - /api/v1/auth/login - POST - ::1
+[Sat, 15 May 2021 00:55:49 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:55:52 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:56:26 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:56:37 GMT] - [32minfo[39m: smart stream is running on port 3040
+[Sat, 15 May 2021 00:56:42 GMT] - [31merror[39m: ApiError - 401 - invalid login credentials - /api/v1/auth/login - POST - ::1
+[Sat, 15 May 2021 00:58:48 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 00:59:02 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 00:59:04 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 00:59:22 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 00:59:22 GMT] - [31merror[39m: Error verifying existence of elena@gmail.com, try again. - RangeError - Variable $2 out of range. Parameters array length: 1)
+[Sat, 15 May 2021 00:59:22 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of elena@gmail.com, try again. - /api/v1/auth/login - POST - ::1)
+[Sat, 15 May 2021 00:59:46 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 00:59:57 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 00:59:58 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:00:12 GMT] - [31merror[39m: ApiError - 401 - invalid login credentials - /api/v1/auth/login - POST - ::1)
+[Sat, 15 May 2021 01:00:13 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:00:19 GMT] - [31merror[39m: uncaughtException: logger is not a function
+TypeError: logger is not a function
+    at userLoginEmailValidator (/Users/aijey_omah/Documents/stream-music-api/app/middleware/auth/basic.js:68:9))
+[Sat, 15 May 2021 01:02:07 GMT] - [32minfo[39m: smart stream is running on port 3040)
+2021-05-15T01:02:09.551Z [undefined] [31merror[39m: Variable $2 out of range. Parameters array length: 1 RangeError: Variable $2 out of range. Parameters array length: 1
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/formatting.js:188:19
+    at String.replace (<anonymous>)
+    at Object.array (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/formatting.js:172:22)
+    at Object.formatQuery (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/formatting.js:296:29)
+    at Database.$query (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:129:40)
+    at Database.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:263:23)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/database.js:333:42
+    at tryCatcher (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:15:14)
+[Sat, 15 May 2021 01:02:09 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of elena@gmail.com, try again. - /api/v1/auth/login - POST - ::1)
+[Sat, 15 May 2021 01:03:21 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:03:23 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:03:30 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:03:33 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:03:39 GMT] - [31merror[39m: Error verifying existence of elena@gmail.com, try again. - RangeError - Variable $2 out of range. Parameters array length: 1 - RangeError: Variable $2 out of range. Parameters array length: 1
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/formatting.js:188:19
+    at String.replace (<anonymous>)
+    at Object.array (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/formatting.js:172:22)
+    at Object.formatQuery (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/formatting.js:296:29)
+    at Database.$query (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:129:40)
+    at Database.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:263:23)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/database.js:333:42
+    at tryCatcher (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:15:14))
+[Sat, 15 May 2021 01:03:39 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of elena@gmail.com, try again. - /api/v1/auth/login - POST - ::1)
+[Sat, 15 May 2021 01:05:39 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:05:40 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:05:45 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:05:46 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:05:51 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:05:55 GMT] - [31merror[39m: Error verifying existence of elena@gmail.com, try again. - RangeError - Variable $2 out of range. Parameters array length: 1 - RangeError: Variable $2 out of range. Parameters array length: 1
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/formatting.js:188:19
+    at String.replace (<anonymous>)
+    at Object.array (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/formatting.js:172:22)
+    at Object.formatQuery (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/formatting.js:296:29)
+    at Database.$query (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:129:40)
+    at Database.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:263:23)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/database.js:333:42
+    at tryCatcher (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:15:14))
+[Sat, 15 May 2021 01:05:55 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of elena@gmail.com, try again. - /api/v1/auth/login - POST - ::1)
+[Sat, 15 May 2021 01:07:52 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:08:16 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:08:18 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:08:39 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:09:02 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:09:09 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:09:14 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:09:20 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:09:43 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:09:49 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:09:59 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:10:01 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:10:05 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:10:07 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:10:09 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:10:17 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:10:23 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:10:27 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:10:29 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:10:30 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:10:34 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:10:40 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:10:54 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:11:03 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:11:14 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:11:16 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:11:20 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:11:37 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:14:39 GMT] - [31merror[39m: uncaughtException: Invalid query format.
+TypeError: Invalid query format.
+    at Database.$query (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:60:17)
+    at Database.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:263:23)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/database.js:333:42
+    at tryCatcher (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (node:internal/timers:463:21))
+[Sat, 15 May 2021 01:16:13 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:16:14 GMT] - [31merror[39m: uncaughtException: Invalid query format.
+TypeError: Invalid query format.
+    at Database.$query (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:60:17)
+    at Database.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:263:23)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/database.js:333:42
+    at tryCatcher (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (node:internal/timers:463:21))
+[Sat, 15 May 2021 01:17:09 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:17:10 GMT] - [31merror[39m: uncaughtException: Invalid query format.
+TypeError: Invalid query format.
+    at Database.$query (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:60:17)
+    at Database.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:263:23)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/database.js:333:42
+    at tryCatcher (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (node:internal/timers:463:21))
+[Sat, 15 May 2021 01:17:24 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:17:24 GMT] - [31merror[39m: uncaughtException: Invalid query format.
+TypeError: Invalid query format.
+    at Database.$query (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:60:17)
+    at Database.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:263:23)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/database.js:333:42
+    at tryCatcher (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (node:internal/timers:463:21))
+[Sat, 15 May 2021 01:18:12 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:18:14 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:18:19 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:18:31 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:18:50 GMT] - [31merror[39m: uncaughtException: Invalid query format.
+TypeError: Invalid query format.
+    at Database.$query (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:60:17)
+    at Database.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:263:23)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/database.js:333:42
+    at tryCatcher (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (node:internal/timers:463:21))
+[Sat, 15 May 2021 01:19:08 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:19:11 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:19:14 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:19:18 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:19:24 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:19:35 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:19:38 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:19:41 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:20:05 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:20:17 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:20:19 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:20:23 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:20:26 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:22:21 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:22:23 GMT] - [31merror[39m: uncaughtException: Invalid query format.
+TypeError: Invalid query format.
+    at Database.$query (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:60:17)
+    at Database.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:263:23)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/database.js:333:42
+    at tryCatcher (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (node:internal/timers:463:21))
+[Sat, 15 May 2021 01:23:09 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:23:38 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:23:40 GMT] - [31merror[39m: uncaughtException: Invalid query format.
+TypeError: Invalid query format.
+    at Database.$query (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:60:17)
+    at Database.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:263:23)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/database.js:333:42
+    at tryCatcher (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (node:internal/timers:463:21))
+[Sat, 15 May 2021 01:24:07 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:24:08 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:24:09 GMT] - [31merror[39m: uncaughtException: Invalid query format.
+TypeError: Invalid query format.
+    at Database.$query (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:60:17)
+    at Database.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/query.js:263:23)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/pg-promise/lib/database.js:333:42
+    at tryCatcher (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/aijey_omah/Documents/stream-music-api/node_modules/bluebird/js/release/async.js:15:14)
+    at processImmediate (node:internal/timers:463:21))
+[Sat, 15 May 2021 01:26:04 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:26:09 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:26:15 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:26:21 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:27:30 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:27:32 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:27:38 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:27:42 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:27:45 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:27:47 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:27:54 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:27:56 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:27:58 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:28:00 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:28:01 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:28:21 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:28:29 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:28:30 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:28:31 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:28:34 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:28:36 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:28:39 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:28:46 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:28:52 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:28:54 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:29:11 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:29:12 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:29:14 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:29:16 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:29:32 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:29:36 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:29:41 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:29:44 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:29:55 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:30:32 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:30:34 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:30:34 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:31:14 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:31:20 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:31:25 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:31:26 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:31:27 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:31:34 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:31:50 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:31:55 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:32:54 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:32:56 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:32:57 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:33:25 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:33:26 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:35:11 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:35:12 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:35:33 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:35:35 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:35:37 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:35:38 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:35:44 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:35:46 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:36:20 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:36:23 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:36:33 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:36:54 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:37:06 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:37:14 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:37:16 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:37:22 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:37:22 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:37:33 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:37:37 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:39:00 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:39:05 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:39:12 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:39:18 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:39:19 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:39:43 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:39:44 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:40:39 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:40:41 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:40:56 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:41:01 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:41:06 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:41:11 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:41:15 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:41:16 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:41:21 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:42:37 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:42:39 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:42:51 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:42:53 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:42:55 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:43:28 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:43:46 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:44:16 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:44:51 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:46:01 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:46:02 GMT] - [31merror[39m: ApiError - 409 - A user with your 0937788939494 already exists - /api/v1/auth/signup - POST - ::1)
+[Sat, 15 May 2021 01:46:15 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:46:43 GMT] - [31merror[39m: ApiError - 400 - email should is required - /api/v1/auth/login - POST - ::1)
+[Sat, 15 May 2021 01:46:47 GMT] - [31merror[39m: ApiError - 400 - "phone_number" is not allowed - /api/v1/auth/login - POST - ::1)
+[Sat, 15 May 2021 01:46:51 GMT] - [31merror[39m: Error verifying existence of kpk@gmail.com, try again. - ReferenceError - staff is not defined - ReferenceError: staff is not defined
+    at userLoginEmailValidator (/Users/aijey_omah/Documents/stream-music-api/app/middleware/auth/basic.js:73:20))
+[Sat, 15 May 2021 01:46:51 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of kpk@gmail.com, try again. - /api/v1/auth/login - POST - ::1)
+[Sat, 15 May 2021 01:47:32 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:47:33 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/login - POST - ::1)
+[Sat, 15 May 2021 01:47:44 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:47:49 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:47:50 GMT] - [31merror[39m: Error verifying existence of kpk@gmail.com, try again. - ReferenceError - user is not defined - ReferenceError: user is not defined
+    at userLoginEmailValidator (/Users/aijey_omah/Documents/stream-music-api/app/middleware/auth/basic.js:70:9))
+[Sat, 15 May 2021 01:47:50 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of kpk@gmail.com, try again. - /api/v1/auth/login - POST - ::1)
+[Sat, 15 May 2021 01:48:10 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:48:11 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/login - POST - ::1)
+[Sat, 15 May 2021 01:48:43 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:48:46 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:48:47 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:48:48 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/login - POST - ::1)
+[Sat, 15 May 2021 01:48:59 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:49:07 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:49:09 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:49:12 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/login - POST - ::1)
+[Sat, 15 May 2021 01:49:13 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:49:55 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:49:57 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:49:57 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/login - POST - ::1)
+[Sat, 15 May 2021 01:50:20 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:50:24 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:50:27 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:50:27 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/login - POST - ::1)
+[Sat, 15 May 2021 01:50:36 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:51:10 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:51:11 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:51:15 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:51:18 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:51:19 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:51:20 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:51:46 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:53:41 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:53:46 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:53:47 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:53:53 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:53:54 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:54:01 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:54:03 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:54:08 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Sat, 15 May 2021 01:54:12 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 22:57:00 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 22:57:20 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 22:57:22 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 22:57:24 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 22:57:37 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 22:58:26 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 22:58:27 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:02:25 GMT] - [31merror[39m: uncaughtException: Router.use() requires a middleware function but got a Object
+/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:1
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:458:13)
+    at Function.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/application.js:217:7)
+    at appConfig (/Users/aijey_omah/Documents/stream-music-api/config/app.js:21:7)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:12:1)
+    at Generator.next (<anonymous>))
+[Wed, 19 May 2021 23:04:09 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:04:52 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:05:39 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:05:42 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:06:00 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:06:23 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:06:26 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:11:40 GMT] - [31merror[39m: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at fileFilter (/Users/aijey_omah/Documents/stream-music-api/app/services/uploadServices.js:16:15)
+    at wrappedFileFilter (/Users/aijey_omah/Documents/stream-music-api/node_modules/multer/index.js:44:7)
+    at Busboy.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (node:events:376:20)
+    at Busboy.EventEmitter.emit (node:domain:470:12)
+    at Busboy.emit (/Users/aijey_omah/Documents/stream-music-api/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (node:events:376:20)
+    at PartStream.EventEmitter.emit (node:domain:470:12)
+    at HeaderParser.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (node:events:376:20)
+    at HeaderParser.EventEmitter.emit (node:domain:470:12)
+    at HeaderParser._finish (/Users/aijey_omah/Documents/stream-music-api/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (node:events:376:20)
+    at SBMH.EventEmitter.emit (node:domain:470:12))
+[Wed, 19 May 2021 23:12:03 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:12:08 GMT] - [31merror[39m: uncaughtException: loggers.error is not a function
+TypeError: loggers.error is not a function
+    at createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:21:17)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at Immediate.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/multer/lib/make-middleware.js:53:37)
+    at processImmediate (node:internal/timers:465:21))
+[Wed, 19 May 2021 23:12:23 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:12:24 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:12:26 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:12:33 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:12:35 GMT] - [31merror[39m: uncaughtException: loggers.error is not a function
+TypeError: loggers.error is not a function
+    at createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:21:17)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at Immediate.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/multer/lib/make-middleware.js:53:37)
+    at processImmediate (node:internal/timers:465:21))
+[Wed, 19 May 2021 23:13:01 GMT] - [32minfo[39m: smart stream is running on port 3040)
+2021-05-19T23:13:04.295Z [undefined] [31merror[39m: Cannot read property 'upload' of undefined TypeError: Cannot read property 'upload' of undefined
+    at createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:13:60)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at Immediate._onImmediate (/Users/aijey_omah/Documents/stream-music-api/node_modules/multer/lib/make-middleware.js:53:37)
+    at processImmediate (node:internal/timers:465:21)
+[Wed, 19 May 2021 23:13:04 GMT] - [31merror[39m: uncaughtException: CREATE_USER_FAILED is not defined
+ReferenceError: CREATE_USER_FAILED is not defined
+    at createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:22:38)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at Immediate.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/node_modules/multer/lib/make-middleware.js:53:37)
+    at processImmediate (node:internal/timers:465:21))
+[Wed, 19 May 2021 23:13:13 GMT] - [32minfo[39m: smart stream is running on port 3040)
+2021-05-19T23:13:15.341Z [undefined] [31merror[39m: Cannot read property 'upload' of undefined TypeError: Cannot read property 'upload' of undefined
+    at createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:13:60)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at Immediate._onImmediate (/Users/aijey_omah/Documents/stream-music-api/node_modules/multer/lib/make-middleware.js:53:37)
+    at processImmediate (node:internal/timers:465:21)
+[Wed, 19 May 2021 23:14:01 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:14:07 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:14:15 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:14:17 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:14:21 GMT] - [32minfo[39m: smart stream is running on port 3040)
+2021-05-19T23:14:29.481Z [undefined] [31merror[39m: Cannot read property 'upload' of undefined TypeError: Cannot read property 'upload' of undefined
+    at createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:14:60)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at Immediate._onImmediate (/Users/aijey_omah/Documents/stream-music-api/node_modules/multer/lib/make-middleware.js:53:37)
+    at processImmediate (node:internal/timers:465:21)
+[Wed, 19 May 2021 23:14:38 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:14:42 GMT] - [32minfo[39m: smart stream is running on port 3040)
+2021-05-19T23:14:44.118Z [undefined] [31merror[39m: Cannot read property 'upload' of undefined TypeError: Cannot read property 'upload' of undefined
+    at createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:14:60)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at Immediate._onImmediate (/Users/aijey_omah/Documents/stream-music-api/node_modules/multer/lib/make-middleware.js:53:37)
+    at processImmediate (node:internal/timers:465:21)
+[Wed, 19 May 2021 23:15:49 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:15:51 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:15:53 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:16:16 GMT] - [32minfo[39m: smart stream is running on port 3040)
+2021-05-19T23:16:23.607Z [undefined] [31merror[39m: Cannot read property 'upload' of undefined TypeError: Cannot read property 'upload' of undefined
+    at createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:14:60)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at Immediate._onImmediate (/Users/aijey_omah/Documents/stream-music-api/node_modules/multer/lib/make-middleware.js:53:37)
+    at processImmediate (node:internal/timers:465:21)
+[Wed, 19 May 2021 23:17:47 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:17:50 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:17:58 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:18:49 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:19:15 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:19:25 GMT] - [32minfo[39m: smart stream is running on port 3040)
+2021-05-19T23:19:29.540Z [undefined] [31merror[39m: Cannot read property 'upload' of undefined TypeError: Cannot read property 'upload' of undefined
+    at createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:17:60)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at authenticate (/Users/aijey_omah/Documents/stream-music-api/app/middleware/auth/basic.js:142:9)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:317:13)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:284:7
+[Wed, 19 May 2021 23:20:04 GMT] - [32minfo[39m: smart stream is running on port 3040)
+2021-05-19T23:20:09.836Z [undefined] [31merror[39m: Cannot read property 'upload' of undefined TypeError: Cannot read property 'upload' of undefined
+    at createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:17:60)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at authenticate (/Users/aijey_omah/Documents/stream-music-api/app/middleware/auth/basic.js:142:9)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:317:13)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:284:7
+[Wed, 19 May 2021 23:21:24 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:21:29 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:21:52 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:21:55 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:22:07 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:22:23 GMT] - [32minfo[39m: smart stream is running on port 3040)
+2021-05-19T23:22:31.255Z [undefined] [31merror[39m: Cannot read property 'uploader' of undefined TypeError: Cannot read property 'uploader' of undefined
+    at createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:16:48)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at authenticate (/Users/aijey_omah/Documents/stream-music-api/app/middleware/auth/basic.js:142:9)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:317:13)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:284:7
+[Wed, 19 May 2021 23:23:30 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:23:32 GMT] - [32minfo[39m: smart stream is running on port 3040)
+2021-05-19T23:23:36.336Z [undefined] [31merror[39m: Cannot read property 'uploader' of undefined TypeError: Cannot read property 'uploader' of undefined
+    at createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:16:48)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at authenticate (/Users/aijey_omah/Documents/stream-music-api/app/middleware/auth/basic.js:142:9)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:317:13)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:284:7
+[Wed, 19 May 2021 23:24:38 GMT] - [32minfo[39m: smart stream is running on port 3040)
+2021-05-19T23:25:02.609Z [undefined] [31merror[39m: Cannot read property 'uploader' of undefined TypeError: Cannot read property 'uploader' of undefined
+    at createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:16:48)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at authenticate (/Users/aijey_omah/Documents/stream-music-api/app/middleware/auth/basic.js:142:9)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:317:13)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:284:7
+[Wed, 19 May 2021 23:25:35 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:25:41 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:29:46 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:30:22 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:30:25 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:30:29 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:30:52 GMT] - [32minfo[39m: smart stream is running on port 3040)
+2021-05-19T23:31:00.102Z [undefined] [31merror[39m: Cannot read property 'path' of undefined TypeError: Cannot read property 'path' of undefined
+    at createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:13:60)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at authenticate (/Users/aijey_omah/Documents/stream-music-api/app/middleware/auth/basic.js:142:9)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:317:13)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/express/lib/router/index.js:284:7
+[Wed, 19 May 2021 23:32:42 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:43:41 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:43:44 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:44:06 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:44:12 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:44:25 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:44:32 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:44:58 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:45:03 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:45:06 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:45:10 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:45:13 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:45:15 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:45:40 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:45:43 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:46:09 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:46:13 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:46:15 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:46:17 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:46:18 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:46:20 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:46:24 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:46:27 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:46:36 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:46:39 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:46:43 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:46:44 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:46:45 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:46:47 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:46:51 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:47:05 GMT] - [31merror[39m: 400 - DBError - null value in column "user_id" violates not-null constraint - DBError: null value in column "user_id" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:42:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:17:26))
+[Wed, 19 May 2021 23:47:05 GMT] - [31merror[39m: 400 - DBError - null value in column "user_id" violates not-null constraint - DBError: null value in column "user_id" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:42:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:17:26))
+[Wed, 19 May 2021 23:47:05 GMT] - [31merror[39m: ApiError - 500 - Error creating post - /api/v1/post/create-post - POST - ::1)
+[Wed, 19 May 2021 23:47:23 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:48:13 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:48:18 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:48:28 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:48:40 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:48:44 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:48:46 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:48:54 GMT] - [31merror[39m: 400 - DBError - null value in column "user_id" violates not-null constraint - DBError: null value in column "user_id" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:43:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:17:26))
+[Wed, 19 May 2021 23:48:54 GMT] - [31merror[39m: 400 - DBError - null value in column "user_id" violates not-null constraint - DBError: null value in column "user_id" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:43:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:17:26))
+[Wed, 19 May 2021 23:48:54 GMT] - [31merror[39m: ApiError - 500 - Error creating post - /api/v1/post/create-post - POST - ::1)
+[Wed, 19 May 2021 23:49:23 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:49:24 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:49:29 GMT] - [31merror[39m: 400 - DBError - null value in column "user_id" violates not-null constraint - DBError: null value in column "user_id" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:43:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:17:26))
+[Wed, 19 May 2021 23:49:29 GMT] - [31merror[39m: 400 - DBError - null value in column "user_id" violates not-null constraint - DBError: null value in column "user_id" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:43:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:17:26))
+[Wed, 19 May 2021 23:49:29 GMT] - [31merror[39m: ApiError - 500 - Error creating post - /api/v1/post/create-post - POST - ::1)
+[Wed, 19 May 2021 23:49:47 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:49:49 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:49:58 GMT] - [31merror[39m: 400 - DBError - null value in column "user_id" violates not-null constraint - DBError: null value in column "user_id" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:43:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:17:26))
+[Wed, 19 May 2021 23:49:58 GMT] - [31merror[39m: 400 - DBError - null value in column "user_id" violates not-null constraint - DBError: null value in column "user_id" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:43:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:17:26))
+[Wed, 19 May 2021 23:49:58 GMT] - [31merror[39m: ApiError - 500 - Error creating post - /api/v1/post/create-post - POST - ::1)
+[Wed, 19 May 2021 23:51:40 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:51:42 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:51:50 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:51:53 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:52:00 GMT] - [31merror[39m: 400 - DBError - null value in column "user_id" violates not-null constraint - DBError: null value in column "user_id" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:43:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:16:26))
+[Wed, 19 May 2021 23:52:00 GMT] - [31merror[39m: 400 - DBError - null value in column "user_id" violates not-null constraint - DBError: null value in column "user_id" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:43:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:16:26))
+[Wed, 19 May 2021 23:52:00 GMT] - [31merror[39m: ApiError - 500 - Error creating post - /api/v1/post/create-post - POST - ::1)
+[Wed, 19 May 2021 23:52:13 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:52:21 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:52:27 GMT] - [31merror[39m: 400 - DBError - null value in column "user_id" violates not-null constraint - DBError: null value in column "user_id" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:43:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:16:26))
+[Wed, 19 May 2021 23:52:27 GMT] - [31merror[39m: 400 - DBError - null value in column "user_id" violates not-null constraint - DBError: null value in column "user_id" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:43:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:16:26))
+[Wed, 19 May 2021 23:52:27 GMT] - [31merror[39m: ApiError - 500 - Error creating post - /api/v1/post/create-post - POST - ::1)
+[Wed, 19 May 2021 23:52:40 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:52:41 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:52:46 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:52:50 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:52:59 GMT] - [31merror[39m: 400 - DBError - null value in column "user_id" violates not-null constraint - DBError: null value in column "user_id" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:43:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:16:26))
+[Wed, 19 May 2021 23:52:59 GMT] - [31merror[39m: 400 - DBError - null value in column "user_id" violates not-null constraint - DBError: null value in column "user_id" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:43:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:16:26))
+[Wed, 19 May 2021 23:52:59 GMT] - [31merror[39m: ApiError - 500 - Error creating post - /api/v1/post/create-post - POST - ::1)
+[Wed, 19 May 2021 23:53:37 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:53:52 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:53:54 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:53:56 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:54:04 GMT] - [31merror[39m: 400 - DBError - null value in column "user_id" violates not-null constraint - DBError: null value in column "user_id" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:43:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:17:26))
+[Wed, 19 May 2021 23:54:04 GMT] - [31merror[39m: 400 - DBError - null value in column "user_id" violates not-null constraint - DBError: null value in column "user_id" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:43:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:17:26))
+[Wed, 19 May 2021 23:54:04 GMT] - [31merror[39m: ApiError - 500 - Error creating post - /api/v1/post/create-post - POST - ::1)
+[Wed, 19 May 2021 23:54:43 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:54:49 GMT] - [31merror[39m: undefined - ReferenceError - user_id is not defined - ReferenceError: user_id is not defined
+    at createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:16:46)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5))
+[Wed, 19 May 2021 23:54:49 GMT] - [31merror[39m: ApiError - 500 - Error creating post - /api/v1/post/create-post - POST - ::1)
+[Wed, 19 May 2021 23:55:13 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:55:15 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:55:20 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:55:27 GMT] - [31merror[39m: undefined - ReferenceError - user_id is not defined - ReferenceError: user_id is not defined
+    at createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:16:46)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5))
+[Wed, 19 May 2021 23:55:27 GMT] - [31merror[39m: ApiError - 500 - Error creating post - /api/v1/post/create-post - POST - ::1)
+[Wed, 19 May 2021 23:56:01 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:56:06 GMT] - [31merror[39m: undefined - ReferenceError - user_id is not defined - ReferenceError: user_id is not defined
+    at createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:16:46)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5))
+[Wed, 19 May 2021 23:56:06 GMT] - [31merror[39m: ApiError - 500 - Error creating post - /api/v1/post/create-post - POST - ::1)
+[Wed, 19 May 2021 23:56:33 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:56:36 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:56:41 GMT] - [31merror[39m: 400 - DBError - null value in column "last_ip" violates not-null constraint - DBError: null value in column "last_ip" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:43:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:16:26))
+[Wed, 19 May 2021 23:56:41 GMT] - [31merror[39m: 400 - DBError - null value in column "last_ip" violates not-null constraint - DBError: null value in column "last_ip" violates not-null constraint
+    at PostModel.save (/Users/aijey_omah/Documents/stream-music-api/app/model/post.js:43:23)
+    at async createPost (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/post.js:16:26))
+[Wed, 19 May 2021 23:56:41 GMT] - [31merror[39m: ApiError - 500 - Error creating post - /api/v1/post/create-post - POST - undefined)
+[Wed, 19 May 2021 23:57:06 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:57:11 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:58:04 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:58:18 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:58:20 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:58:28 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:58:31 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Wed, 19 May 2021 23:58:38 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:20:32 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:20:43 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:21:50 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:21:53 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:21:58 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:22:15 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:22:17 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:22:21 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:22:56 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:23:14 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:23:18 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:23:20 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:23:22 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:23:31 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:23:33 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:23:37 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:23:39 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:23:43 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:23:56 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:24:02 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:24:05 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:24:12 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:24:16 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:24:46 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:25:08 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:25:22 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:25:27 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:25:30 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:25:34 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:25:39 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:25:47 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:25:49 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:25:55 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:26:01 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:26:05 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:26:07 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:26:11 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:26:15 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:26:21 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:26:23 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:26:26 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:26:36 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:26:38 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:26:41 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:26:44 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:26:48 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:26:50 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:26:57 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:27:01 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:27:19 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:27:24 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:28:16 GMT] - [32minfo[39m: smart stream is running on port 3040)
+[Thu, 20 May 2021 00:29:10 GMT] - [32minfo[39m: smart stream is running on port 3040)
