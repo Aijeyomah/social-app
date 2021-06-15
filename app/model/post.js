@@ -18,7 +18,6 @@ class PostModel {
    * @memberof PostModel
    */
   constructor(options) {
-    console.log(options);
     (this.user_id = options.user_id);
     (this.image_path = options.image_path);
     (this.image_latitude = options.image_latitude);

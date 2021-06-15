@@ -12,7 +12,7 @@ export default {
   MODULE_ERROR: 'A module error occurred',
   INVALID_ROLE_PARAMETER: 'Invalid role value',
   REDIS_RUNNING: 'Redis server is running',
-  STREAM_RUNNING: 'smart stream is running on port',
+  STREAM_RUNNING: 'smart stream',
   MODULE_ERROR_STATUS: 'MODULE_PROCESS_BROKE',
   DB_ERROR_STATUS: 'DB_PROCESS_FAILED',
   WELCOME: 'welcome to smart stream',
@@ -23,7 +23,12 @@ export default {
   USER_DATA_EXIST_VERIFICATION_FAIL_MSG:(field) => `Error verifying existence of ${field}, try again.`,
   INVALID_CREDENTIALS: 'invalid login credentials',
   CREATE_POST_SUCCESSFULLY: 'Post created successfully',
-  ERROR_CREATING_POST: 'Error creating post'
+  ERROR_CREATING_POST: 'Error creating post',
+  ERROR_FOLLOWING_USER: 'Error following user',
+  SUCCESSFULLY_FOLLOW_USER: 'successfully follow user',
+  DEFAULT_ERROR_MSG: 'Error while processing request, it\'s not you, it\'s us',
+  AlREADY_FOLLOWING_USER: 'You are already following this user'
+
 
   
 };

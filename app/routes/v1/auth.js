@@ -16,7 +16,7 @@ router.post(
 
 router.post(
   '/login',
-  validateBody(loginSchema),
+  //validateBody(loginSchema),
   userLoginEmailValidator,
   signin
 );

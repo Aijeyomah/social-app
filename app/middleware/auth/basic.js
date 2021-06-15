@@ -1,8 +1,8 @@
-import {  ApiError, constants, genericErrors, errorResponse, verifyToken, moduleErrLogMessager } from '../../utils';
+import {  ApiError, constants, genericErrors, errorResponse, verifyToken, moduleErrLogMessager, sendGraphQLResponse } from '../../utils';
 import { fetchByEmailOrPhoneNumber } from '../../services/user';
-import { loggers } from 'winston';
+import { skip } from 'graphql-resolvers';
 
-const { DATA_CONFLICT, USER_DATA_EXIST_VERIFICATION_FAIL_MSG } = constants;
+const { DATA_CONFLICT, USER_DATA_EXIST_VERIFICATION_FAIL_MSG, AUTH_REQUIRED } = constants;
 
 
 /**
@@ -56,7 +56,8 @@ export const signUpValidator = async (req, res, next) => {
  */
 export const userLoginEmailValidator = async (req, res, next) => {
     const { phone_number, email } = req.body;
-    let msg, field;
+    let field;
+    let msg;
     
     if (phone_number){
         field = phone_number
@@ -131,16 +132,18 @@ export const checkToken = (req) => {
  * @memberof AuthMiddleware
  *
  */
-export const authenticate = async (req, res, next) => {
-    const token = checkToken(req);
-    if (!token) {
-        return errorResponse(req, res, genericErrors.authRequired);
-    }
+export const authenticate = async (_, {}, ctx) => {
     try {
+           const token = checkToken(ctx);
+        if (!token) {
+            return sendGraphQLResponse(401, AUTH_REQUIRED);
+        }
+
         const decoded = await verifyToken(token);
-        req.user = decoded;
-        next();
-    } catch (err) {
-        errorResponse(req, res, genericErrors.authRequired);
+        ctx.user = decoded;
+        skip;
+    } catch (e) {
+        moduleErrLogMessager(e)
+       sendGraphQLResponse(e)
     }
 }

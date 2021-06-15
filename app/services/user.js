@@ -1,9 +1,9 @@
 import authQueries from '../db/queries/auth';
 import db from '../db';
-import {  DBError, constants } from '../utils';
+import {  DBError, constants, moduleErrLogMessager } from '../utils';
 
 
-const {getUserByEmailOrPhoneNumber, getUserById} = authQueries;
+const {getUserByEmailOrPhoneNumber, getUserById, followUser, userFollow, getUserFollowing} = authQueries;
 
   /**
    * Fetches a user by his/her email.
@@ -24,6 +24,23 @@ const {getUserByEmailOrPhoneNumber, getUserById} = authQueries;
    * with a user resource  or a DB Error.
    */
   export const  fetchByUserId = async(id) => db.oneOrNone(getUserById, [id]);
-  
 
-  
+  export const FollowAUser  = async(user_id, followerId) => {
+    try {
+       db.tx(t=> {
+        const q1 =  t.oneOrNone(followUser, [followerId, user_id]); 
+        const q2 =  t.oneOrNone(userFollow, [user_id, followerId]);
+        return t.batch([q1, q2])
+      });
+      
+    } catch (error) {
+      const dbError = new DBError({
+        status: 400,
+        message: error.message,
+      });
+      moduleErrLogMessager(dbError);
+      throw dbError;
+    }
+  };
+
+  export const getFollower = async(followingId) => db.oneOrNone(getUserFollowing, [followingId]);

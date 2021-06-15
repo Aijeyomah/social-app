@@ -13,6 +13,8 @@ import {
     successResponse,
     moduleErrLogMessager,
     errorResponse,
+    errorResolver,
+    sendGraphQLResponse
 } from './helpers';
 
 export {
@@ -29,6 +31,8 @@ export {
     addTokenToData,
     successResponse,
     moduleErrLogMessager,
-    errorResponse
+    errorResponse,
+    errorResolver,
+    sendGraphQLResponse
 
 };

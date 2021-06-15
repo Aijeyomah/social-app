@@ -8,7 +8,7 @@ import db from '../db';
 
 const { SECRET } = config;
 const { serverError } = genericError;
-const { SUCCESS_RESPONSE, FAIL, SUCCESS } = constants;
+const { SUCCESS_RESPONSE, FAIL, SUCCESS, DEFAULT_ERROR_MSG ,INTERNAL_SERVER_ERROR, ROLE_NOT_SUFFICIENT} = constants;
 
 
 
@@ -135,6 +135,10 @@ const { SUCCESS_RESPONSE, FAIL, SUCCESS } = constants;
     };
   }
 
+  const socialMediaAuth = async(request) => {
+    const token = await hash.generateToken(request.user.first_name, request.user.email);
+    return token;
+};
 
   /**
    * Generates a JSON response for success scenarios.
@@ -195,6 +199,7 @@ const { SUCCESS_RESPONSE, FAIL, SUCCESS } = constants;
    * @returns {JSON} - A JSON failure response.
    */
  export const errorResponse =(req, res, error) => {
+   console.log(error);
     const aggregateError = { ...serverError, ...error };
     apiErrLogMessenger(aggregateError, req);
     return res.status(aggregateError.status).json({
@@ -203,4 +208,21 @@ const { SUCCESS_RESPONSE, FAIL, SUCCESS } = constants;
       errors: aggregateError.errors
     });
   }
-
+  export const sendGraphQLResponse = (status, message, data=null) => ({
+    status,
+    message,
+    data
+  });
+  export const errorResolver = (error) => {
+    switch (error.message) {
+      // case 'DUP':
+      //   moduleErrLogMessager(error);
+      //   return sendGraphQLResponse(CONFLICT, DUPLICATED_ENTITY);
+      case 'FOR':
+        moduleErrLogMessager(error);
+        return sendGraphQLResponse(403, ROLE_NOT_SUFFICIENT);
+      default:
+        moduleErrLogMessager(error);
+        return sendGraphQLResponse(500, DEFAULT_ERROR_MSG);
+    }
+  };

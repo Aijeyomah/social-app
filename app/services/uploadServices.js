@@ -34,6 +34,12 @@ export const cloudinaryConfig = async(file) => {
     }
   };
 
+  export const processUpload = async (upload) => {
+    const { imagePath } = await upload;
+    const file = await cloudinaryConfig(imagePath);
+    return file;
+  };
+
 
 
 

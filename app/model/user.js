@@ -48,7 +48,6 @@ class UserModel {
       throw dbError;
     }
   }
-  
 
 }
 export default UserModel;

@@ -4,6 +4,14 @@ import queries from '../../db/queries/auth';
 
 const { getUserById } = queries;
 const { CREATE_USER_SUCCESSFULLY, CREATE_USER_FAILED, LOGIN_USER_SUCCESSFULLY , LOGIN_USER_FAILED} = constants;
+
+/**
+   * create a  user.
+   * @param {Request} req - The request from the endpoint.
+   * @param {Response} res - The response returned by the method.
+   * @returns { JSON } A JSON response with the user's details and a JWT.
+   * @memberof StaffAuthController
+   */
 export const signup = async(req, res, next) => {
     try {
       const { password } = req.body;
@@ -29,9 +37,10 @@ export const signup = async(req, res, next) => {
    * @returns { JSON } A JSON response with the user's details and a JWT.
    * @memberof StaffAuthController
    */
- export const signin = (req, res)=> {
+ export const signin = (req, res, next)=> {
     try {
       const { user, body } = req;
+ 
     const isAuthenticUser = compareHash(
       body.password,
       user.password,
@@ -40,10 +49,11 @@ export const signup = async(req, res, next) => {
     if (!isAuthenticUser) {
       return errorResponse(req, res, genericErrors.inValidLogin);
     }
-    if (!user.is_active) return errorResponse(req, res, genericErrors.accessRevoked);
-    const data = addTokenToData(user);
-    successResponse(res, { data, message: LOGIN_USER_SUCCESSFULLY });
+
+     const data = addTokenToData(user);
+      successResponse(res, { data, message: LOGIN_USER_SUCCESSFULLY });
     } catch (e) {
+      logger.error(e)
       next(new ApiError({ message: LOGIN_USER_FAILED, errors: e.message }));
     }
   };
