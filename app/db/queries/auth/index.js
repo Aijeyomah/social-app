@@ -40,15 +40,13 @@ export default {
       WHERE u.id = $1
     `,
     getUserFollowing: `
-    SELECT 
-    * 
-    FROM 
-      user_following 
-    WHERE 
-      following_id= $1
+      SELECT 
+        * 
+      FROM 
+        user_following 
+      WHERE 
+        following_id= $1
     `,
-
-
 
 
 }

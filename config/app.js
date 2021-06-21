@@ -1,13 +1,11 @@
 import 'dotenv/config';
 import { json, urlencoded } from 'express';
 import cors from 'cors';
-import helmet from 'helmet';
 import cookieSession from 'cookie-session';
 import passport from 'passport';
 import config from './env';
 import { addTokenToData, constants , errorResponse, successResponse} from '../app/utils';
 import apiV1Routes from '../app/routes/v1';
-import SocketIo from '../app/utils/socket.io';
 import http from 'http';
 require('../app/services/passport');
 
@@ -16,8 +14,6 @@ const { STREAM_RUNNING, WELCOME, v1 } = constants;
 const appConfig = (app, graphqlServer) => {
 
   const server = http.createServer(app);
-  const io = new SocketIo(server);
-  SocketIo.initialize(io);
 
   //Configure Session Storage
   app.use(cookieSession({
@@ -38,6 +34,7 @@ const appConfig = (app, graphqlServer) => {
   app.use(v1, apiV1Routes);
 
   graphqlServer.applyMiddleware({ app, path: `${v1}/graphql` });
+  graphqlServer.installSubscriptionHandlers(server);
 
   // Auth Routes
   app.use(passport.initialize());
@@ -67,7 +64,7 @@ const appConfig = (app, graphqlServer) => {
 
   const port = process.env.PORT || config.PORT;
   
-  app.listen(port, () => {
+  server.listen(port, () => {
     logger.info(
       `🚀🚀  ${STREAM_RUNNING} Server ready at http://localhost:${port}${graphqlServer.graphqlPath}`
     );

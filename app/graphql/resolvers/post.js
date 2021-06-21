@@ -11,6 +11,9 @@ const AddPost = {
             authenticate,
             createPost
       )
+    },
+    Subscription: {
+      
     }
   };  
   

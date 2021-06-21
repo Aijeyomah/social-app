@@ -27,11 +27,16 @@ const {getUserByEmailOrPhoneNumber, getUserById, followUser, userFollow, getUser
 
   export const FollowAUser  = async(user_id, followerId) => {
     try {
-       db.tx(t=> {
+     const data =  db.tx(t=> {
         const q1 =  t.oneOrNone(followUser, [followerId, user_id]); 
         const q2 =  t.oneOrNone(userFollow, [user_id, followerId]);
-        return t.batch([q1, q2])
+        const q3 =  t.oneOrNone(getUserById, [followerId]);
+        return t.batch([q1, q2, q3])
       });
+      const result = await data;
+
+      const { id , userName } = result[2];
+      return { id , userName };
       
     } catch (error) {
       const dbError = new DBError({
