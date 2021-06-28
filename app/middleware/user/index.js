@@ -7,9 +7,9 @@ const {AlREADY_FOLLOWING_USER} = constants;
 
 export const isFollowUser = async(_, {data}, ctx ) => {
     
-  const user =  await getFollower(data.followingId);
+  const user =  await getFollower(data.followingId, ctx.user.id);
     if(!user){
         return skip;
     }
    return sendGraphQLResponse(400, AlREADY_FOLLOWING_USER)
-}
+};

@@ -27,8 +27,8 @@ export default {
   ERROR_FOLLOWING_USER: 'Error following user',
   SUCCESSFULLY_FOLLOW_USER: 'successfully follow user',
   DEFAULT_ERROR_MSG: 'Error while processing request, it\'s not you, it\'s us',
-  AlREADY_FOLLOWING_USER: 'You are already following this user'
+  AlREADY_FOLLOWING_USER: 'You are already following this user',
+  USER_PROFILE_FETCHED_SUCCESSFULLY: 'Successfully fetched user\'s profile',
+  ERROR_FETCHING_USER_PROFILE: 'Error fetching fetching user\'s profile'
 
-
-  
 };

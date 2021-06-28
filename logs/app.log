@@ -2677,3 +2677,318 @@ Error: Unknown type "st".
 [Mon, 21 Jun 2021 00:53:36 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
 [Mon, 21 Jun 2021 00:53:46 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
 [Mon, 21 Jun 2021 00:54:09 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 16:00:54 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 16:03:37 GMT] - [31merror[39m: undefined - GraphQLError - String cannot represent value: { id: "USR-v5kg4", userName: "jaden56" } - undefined)
+[Mon, 21 Jun 2021 16:04:10 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 16:04:16 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 16:05:16 GMT] - [31merror[39m: undefined - TokenExpiredError - jwt expired - TokenExpiredError: jwt expired
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/jsonwebtoken/verify.js:152:21
+    at getSecret (/Users/aijey_omah/Documents/stream-music-api/node_modules/jsonwebtoken/verify.js:90:14)
+    at Proxy.module.exports (/Users/aijey_omah/Documents/stream-music-api/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyToken (/Users/aijey_omah/Documents/stream-music-api/app/utils/helpers.js:106:16)
+    at authenticate (/Users/aijey_omah/Documents/stream-music-api/app/middleware/auth/basic.js:142:31)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-resolvers/lib/combineResolvers.js:28:48
+    at processTicksAndRejections (node:internal/process/task_queues:93:5))
+[Mon, 21 Jun 2021 16:05:16 GMT] - [31merror[39m: undefined - TypeError - Cannot read property 'id' of undefined - TypeError: Cannot read property 'id' of undefined
+    at followUser (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/user.js:12:52)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-resolvers/lib/combineResolvers.js:28:48)
+[Mon, 21 Jun 2021 16:07:00 GMT] - [31merror[39m: undefined - TokenExpiredError - jwt expired - TokenExpiredError: jwt expired
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/jsonwebtoken/verify.js:152:21
+    at getSecret (/Users/aijey_omah/Documents/stream-music-api/node_modules/jsonwebtoken/verify.js:90:14)
+    at Proxy.module.exports (/Users/aijey_omah/Documents/stream-music-api/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyToken (/Users/aijey_omah/Documents/stream-music-api/app/utils/helpers.js:106:16)
+    at authenticate (/Users/aijey_omah/Documents/stream-music-api/app/middleware/auth/basic.js:142:31)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-resolvers/lib/combineResolvers.js:28:48
+    at processTicksAndRejections (node:internal/process/task_queues:93:5))
+[Mon, 21 Jun 2021 16:07:00 GMT] - [31merror[39m: undefined - TypeError - Cannot read property 'id' of undefined - TypeError: Cannot read property 'id' of undefined
+    at followUser (/Users/aijey_omah/Documents/stream-music-api/app/controllers/user/user.js:12:52)
+    at /Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-resolvers/lib/combineResolvers.js:28:48)
+[Mon, 21 Jun 2021 16:08:05 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 16:09:10 GMT] - [31merror[39m: undefined - GraphQLError - String cannot represent value: { id: "USR-v5kg4", userName: "jaden56" } - undefined)
+[Mon, 21 Jun 2021 16:09:55 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 16:09:59 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 16:10:22 GMT] - [31merror[39m: undefined - GraphQLError - String cannot represent value: { id: "USR-v5kg4", userName: "jaden56" } - undefined)
+[Mon, 21 Jun 2021 16:11:08 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 16:12:03 GMT] - [31merror[39m: uncaughtException: There can be only one type named "UserData".
+
+Field "UserData.status" can only be defined once.
+
+Field "UserData.message" can only be defined once.
+/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:1
+Error: There can be only one type named "UserData".
+
+Field "UserData.status" can only be defined once.
+
+Field "UserData.message" can only be defined once.
+    at assertValidSDL (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:107:11)
+    at Object.buildASTSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/utilities/buildASTSchema.js:45:34)
+    at Object.buildSchemaFromTypeDefinitions (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/generate/buildSchemaFromTypeDefinitions.js:25:28)
+    at Object.makeExecutableSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/makeExecutableSchema.js:26:29)
+    at ApolloServer.constructSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:399:32)
+    at new ApolloServerBase (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:204:72)
+    at new ApolloServer (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-express/dist/ApolloServer.js:60:9)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:22:25)
+    at Generator.next (<anonymous>))
+[Mon, 21 Jun 2021 16:12:11 GMT] - [31merror[39m: uncaughtException: There can be only one type named "UserData".
+
+Field "UserData.message" can only be defined once.
+/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:1
+Error: There can be only one type named "UserData".
+
+Field "UserData.message" can only be defined once.
+    at assertValidSDL (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:107:11)
+    at Object.buildASTSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/utilities/buildASTSchema.js:45:34)
+    at Object.buildSchemaFromTypeDefinitions (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/generate/buildSchemaFromTypeDefinitions.js:25:28)
+    at Object.makeExecutableSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/makeExecutableSchema.js:26:29)
+    at ApolloServer.constructSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:399:32)
+    at new ApolloServerBase (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:204:72)
+    at new ApolloServer (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-express/dist/ApolloServer.js:60:9)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:22:25)
+    at Generator.next (<anonymous>))
+[Mon, 21 Jun 2021 16:12:14 GMT] - [31merror[39m: uncaughtException: There can be only one type named "UserData".
+
+Field "UserData.message" can only be defined once.
+
+Unknown type "S".
+/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:1
+Error: There can be only one type named "UserData".
+
+Field "UserData.message" can only be defined once.
+
+Unknown type "S".
+    at assertValidSDL (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:107:11)
+    at Object.buildASTSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/utilities/buildASTSchema.js:45:34)
+    at Object.buildSchemaFromTypeDefinitions (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/generate/buildSchemaFromTypeDefinitions.js:25:28)
+    at Object.makeExecutableSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/makeExecutableSchema.js:26:29)
+    at ApolloServer.constructSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:399:32)
+    at new ApolloServerBase (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:204:72)
+    at new ApolloServer (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-express/dist/ApolloServer.js:60:9)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:22:25)
+    at Generator.next (<anonymous>))
+[Mon, 21 Jun 2021 16:12:16 GMT] - [31merror[39m: uncaughtException: There can be only one type named "UserData".
+
+Field "UserData.message" can only be defined once.
+
+Unknown type "Str".
+/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:1
+Error: There can be only one type named "UserData".
+
+Field "UserData.message" can only be defined once.
+
+Unknown type "Str".
+    at assertValidSDL (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:107:11)
+    at Object.buildASTSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/utilities/buildASTSchema.js:45:34)
+    at Object.buildSchemaFromTypeDefinitions (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/generate/buildSchemaFromTypeDefinitions.js:25:28)
+    at Object.makeExecutableSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/makeExecutableSchema.js:26:29)
+    at ApolloServer.constructSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:399:32)
+    at new ApolloServerBase (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:204:72)
+    at new ApolloServer (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-express/dist/ApolloServer.js:60:9)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:22:25)
+    at Generator.next (<anonymous>))
+[Mon, 21 Jun 2021 16:12:19 GMT] - [31merror[39m: uncaughtException: There can be only one type named "UserData".
+
+Field "UserData.message" can only be defined once.
+/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:1
+Error: There can be only one type named "UserData".
+
+Field "UserData.message" can only be defined once.
+    at assertValidSDL (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:107:11)
+    at Object.buildASTSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/utilities/buildASTSchema.js:45:34)
+    at Object.buildSchemaFromTypeDefinitions (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/generate/buildSchemaFromTypeDefinitions.js:25:28)
+    at Object.makeExecutableSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/makeExecutableSchema.js:26:29)
+    at ApolloServer.constructSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:399:32)
+    at new ApolloServerBase (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:204:72)
+    at new ApolloServer (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-express/dist/ApolloServer.js:60:9)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:22:25)
+    at Generator.next (<anonymous>))
+[Mon, 21 Jun 2021 16:12:26 GMT] - [31merror[39m: uncaughtException: There can be only one type named "UserData".
+/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:1
+Error: There can be only one type named "UserData".
+    at assertValidSDL (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:107:11)
+    at Object.buildASTSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/utilities/buildASTSchema.js:45:34)
+    at Object.buildSchemaFromTypeDefinitions (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/generate/buildSchemaFromTypeDefinitions.js:25:28)
+    at Object.makeExecutableSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/makeExecutableSchema.js:26:29)
+    at ApolloServer.constructSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:399:32)
+    at new ApolloServerBase (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:204:72)
+    at new ApolloServer (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-express/dist/ApolloServer.js:60:9)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:22:25)
+    at Generator.next (<anonymous>))
+[Mon, 21 Jun 2021 16:12:32 GMT] - [31merror[39m: uncaughtException: There can be only one type named "UserData".
+/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:1
+Error: There can be only one type named "UserData".
+    at assertValidSDL (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:107:11)
+    at Object.buildASTSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/utilities/buildASTSchema.js:45:34)
+    at Object.buildSchemaFromTypeDefinitions (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/generate/buildSchemaFromTypeDefinitions.js:25:28)
+    at Object.makeExecutableSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/makeExecutableSchema.js:26:29)
+    at ApolloServer.constructSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:399:32)
+    at new ApolloServerBase (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:204:72)
+    at new ApolloServer (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-express/dist/ApolloServer.js:60:9)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:22:25)
+    at Generator.next (<anonymous>))
+[Mon, 21 Jun 2021 16:12:37 GMT] - [31merror[39m: uncaughtException: There can be only one type named "UserData".
+/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:1
+Error: There can be only one type named "UserData".
+    at assertValidSDL (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:107:11)
+    at Object.buildASTSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/utilities/buildASTSchema.js:45:34)
+    at Object.buildSchemaFromTypeDefinitions (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/generate/buildSchemaFromTypeDefinitions.js:25:28)
+    at Object.makeExecutableSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/makeExecutableSchema.js:26:29)
+    at ApolloServer.constructSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:399:32)
+    at new ApolloServerBase (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:204:72)
+    at new ApolloServer (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-express/dist/ApolloServer.js:60:9)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:22:25)
+    at Generator.next (<anonymous>))
+[Mon, 21 Jun 2021 16:12:45 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 16:12:48 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 16:14:33 GMT] - [31merror[39m: undefined - GraphQLError - Field "followedUser" of type "UserFollowData" must have a selection of subfields. Did you mean "followedUser { ... }"? - undefined)
+[Mon, 21 Jun 2021 16:18:33 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 16:25:09 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 17:21:49 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 17:24:30 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 17:24:34 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 17:24:42 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 17:24:48 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 17:25:02 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 17:25:06 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 17:25:15 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 21 Jun 2021 17:25:21 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 21:23:20 GMT] - [31merror[39m: uncaughtException: Query.getUserProfile defined in resolvers, but not in schema
+/Users/aijey_omah/Documents/stream-music-api/index.js:1
+Error: Query.getUserProfile defined in resolvers, but not in schema)
+[Mon, 28 Jun 2021 21:24:08 GMT] - [31merror[39m: uncaughtException: Query.getUserProfile defined in resolvers, but not in schema
+/Users/aijey_omah/Documents/stream-music-api/index.js:1
+Error: Query.getUserProfile defined in resolvers, but not in schema)
+[Mon, 28 Jun 2021 21:25:07 GMT] - [31merror[39m: uncaughtException: Query.getUserProfile defined in resolvers, but not in schema
+/Users/aijey_omah/Documents/stream-music-api/index.js:1
+Error: Query.getUserProfile defined in resolvers, but not in schema)
+[Mon, 28 Jun 2021 21:26:00 GMT] - [31merror[39m: uncaughtException: Query.getUserProfile defined in resolvers, but not in schema
+/Users/aijey_omah/Documents/stream-music-api/index.js:1
+Error: Query.getUserProfile defined in resolvers, but not in schema)
+[Mon, 28 Jun 2021 21:26:30 GMT] - [31merror[39m: uncaughtException: Query.getUserProfile defined in resolvers, but not in schema
+/Users/aijey_omah/Documents/stream-music-api/index.js:1
+Error: Query.getUserProfile defined in resolvers, but not in schema)
+[Mon, 28 Jun 2021 21:38:37 GMT] - [31merror[39m: uncaughtException: Query.getUserProfile defined in resolvers, but not in schema
+/Users/aijey_omah/Documents/stream-music-api/index.js:1
+Error: Query.getUserProfile defined in resolvers, but not in schema)
+[Mon, 28 Jun 2021 21:38:50 GMT] - [31merror[39m: uncaughtException: Query.getUserProfile defined in resolvers, but not in schema
+/Users/aijey_omah/Documents/stream-music-api/index.js:1
+Error: Query.getUserProfile defined in resolvers, but not in schema)
+[Mon, 28 Jun 2021 21:38:52 GMT] - [31merror[39m: uncaughtException: Unknown type "UserDetailsResponse".
+/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:1
+Error: Unknown type "UserDetailsResponse".
+    at assertValidSDLExtension (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:124:11)
+    at Object.extendSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/utilities/extendSchema.js:77:43)
+    at Object.buildSchemaFromTypeDefinitions (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/generate/buildSchemaFromTypeDefinitions.js:29:28)
+    at Object.makeExecutableSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/makeExecutableSchema.js:26:29)
+    at ApolloServer.constructSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:399:32)
+    at new ApolloServerBase (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:204:72)
+    at new ApolloServer (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-express/dist/ApolloServer.js:60:9)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:22:25)
+    at Generator.next (<anonymous>))
+[Mon, 28 Jun 2021 21:38:54 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 21:41:25 GMT] - [31merror[39m: 500 - ValidationError - Cannot query field "UserDetailsResponse" on type "Query". - undefined)
+[Mon, 28 Jun 2021 21:44:53 GMT] - [31merror[39m: uncaughtException: Unknown type "UserDetailsResponse".
+/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:1
+Error: Unknown type "UserDetailsResponse".
+    at assertValidSDLExtension (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:124:11)
+    at Object.extendSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/utilities/extendSchema.js:77:43)
+    at Object.buildSchemaFromTypeDefinitions (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/generate/buildSchemaFromTypeDefinitions.js:29:28)
+    at Object.makeExecutableSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/makeExecutableSchema.js:26:29)
+    at ApolloServer.constructSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:399:32)
+    at new ApolloServerBase (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:204:72)
+    at new ApolloServer (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-express/dist/ApolloServer.js:60:9)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:22:25)
+    at Generator.next (<anonymous>))
+[Mon, 28 Jun 2021 21:45:06 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 21:45:31 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 21:46:05 GMT] - [31merror[39m: 500 - ValidationError - Cannot query field "UserDetailsResponse" on type "Query". - undefined)
+[Mon, 28 Jun 2021 21:46:06 GMT] - [31merror[39m: 500 - ValidationError - Cannot query field "UserDetailsResponse" on type "Query". - undefined)
+[Mon, 28 Jun 2021 21:58:18 GMT] - [31merror[39m: uncaughtException: There can be only one type named "Query".
+/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:1
+Error: There can be only one type named "Query".
+    at assertValidSDL (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:107:11)
+    at Object.buildASTSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/utilities/buildASTSchema.js:45:34)
+    at Object.buildSchemaFromTypeDefinitions (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/generate/buildSchemaFromTypeDefinitions.js:25:28)
+    at Object.makeExecutableSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/makeExecutableSchema.js:26:29)
+    at ApolloServer.constructSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:399:32)
+    at new ApolloServerBase (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:204:72)
+    at new ApolloServer (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-express/dist/ApolloServer.js:60:9)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:22:25)
+    at Generator.next (<anonymous>))
+[Mon, 28 Jun 2021 21:58:38 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 21:59:51 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 21:59:55 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:00:11 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:04:49 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:05:11 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:05:35 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:05:43 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:05:45 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:06:01 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:06:07 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:06:08 GMT] - [31merror[39m: 500 - GraphQLError - Cannot return null for non-nullable field UserProfileDetails.first_name. - undefined)
+[Mon, 28 Jun 2021 22:07:06 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:07:09 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:07:15 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:07:17 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:07:24 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:07:34 GMT] - [31merror[39m: 500 - ValidationError - Cannot query field "first_name" on type "UserProfileDetails". Did you mean "firstName" or "lastName"? - undefined)
+[Mon, 28 Jun 2021 22:07:34 GMT] - [31merror[39m: 500 - ValidationError - Cannot query field "last_name" on type "UserProfileDetails". Did you mean "lastName" or "firstName"? - undefined)
+[Mon, 28 Jun 2021 22:07:34 GMT] - [31merror[39m: 500 - ValidationError - Cannot query field "profile_pics" on type "UserProfileDetails". Did you mean "profilePics"? - undefined)
+[Mon, 28 Jun 2021 22:07:37 GMT] - [31merror[39m: 500 - ValidationError - Cannot query field "first_name" on type "UserProfileDetails". Did you mean "firstName" or "lastName"? - undefined)
+[Mon, 28 Jun 2021 22:07:37 GMT] - [31merror[39m: 500 - ValidationError - Cannot query field "last_name" on type "UserProfileDetails". Did you mean "lastName" or "firstName"? - undefined)
+[Mon, 28 Jun 2021 22:07:37 GMT] - [31merror[39m: 500 - ValidationError - Cannot query field "profile_pics" on type "UserProfileDetails". Did you mean "profilePics"? - undefined)
+[Mon, 28 Jun 2021 22:08:00 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:09:14 GMT] - [31merror[39m: uncaughtException: Unknown type "Null". Did you mean "URL"?
+/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:1
+Error: Unknown type "Null". Did you mean "URL"?
+    at assertValidSDL (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:107:11)
+    at Object.buildASTSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/utilities/buildASTSchema.js:45:34)
+    at Object.buildSchemaFromTypeDefinitions (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/generate/buildSchemaFromTypeDefinitions.js:25:28)
+    at Object.makeExecutableSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/makeExecutableSchema.js:26:29)
+    at ApolloServer.constructSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:399:32)
+    at new ApolloServerBase (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:204:72)
+    at new ApolloServer (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-express/dist/ApolloServer.js:60:9)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:22:25)
+    at Generator.next (<anonymous>))
+[Mon, 28 Jun 2021 22:09:30 GMT] - [31merror[39m: uncaughtException: Unknown type "null". Did you mean "URL"?
+/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:1
+Error: Unknown type "null". Did you mean "URL"?
+    at assertValidSDL (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/validation/validate.js:107:11)
+    at Object.buildASTSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql/utilities/buildASTSchema.js:45:34)
+    at Object.buildSchemaFromTypeDefinitions (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/generate/buildSchemaFromTypeDefinitions.js:25:28)
+    at Object.makeExecutableSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/graphql-tools/dist/makeExecutableSchema.js:26:29)
+    at ApolloServer.constructSchema (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:399:32)
+    at new ApolloServerBase (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-core/dist/ApolloServer.js:204:72)
+    at new ApolloServer (/Users/aijey_omah/Documents/stream-music-api/node_modules/apollo-server-express/dist/ApolloServer.js:60:9)
+    at Object.<anonymous> (/Users/aijey_omah/Documents/stream-music-api/index.js:22:25)
+    at Generator.next (<anonymous>))
+[Mon, 28 Jun 2021 22:09:39 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:10:08 GMT] - [31merror[39m: 500 - ValidationError - Cannot query field "first_name" on type "UserProfileDetails". Did you mean "firstName" or "lastName"? - undefined)
+[Mon, 28 Jun 2021 22:10:08 GMT] - [31merror[39m: 500 - ValidationError - Cannot query field "last_name" on type "UserProfileDetails". Did you mean "lastName" or "firstName"? - undefined)
+[Mon, 28 Jun 2021 22:10:08 GMT] - [31merror[39m: 500 - ValidationError - Cannot query field "profile_pics" on type "UserProfileDetails". - undefined)
+[Mon, 28 Jun 2021 22:10:28 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:19:03 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:19:06 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:19:37 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:19:44 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:19:47 GMT] - [31merror[39m: uncaughtException: Query.getAUserProfile defined in resolvers, but not in schema
+/Users/aijey_omah/Documents/stream-music-api/index.js:1
+Error: Query.getAUserProfile defined in resolvers, but not in schema)
+[Mon, 28 Jun 2021 22:20:02 GMT] - [31merror[39m: uncaughtException: Query.getAUserProfile defined in resolvers, but not in schema
+/Users/aijey_omah/Documents/stream-music-api/index.js:1
+Error: Query.getAUserProfile defined in resolvers, but not in schema)
+[Mon, 28 Jun 2021 22:20:04 GMT] - [31merror[39m: uncaughtException: Query.getAUserProfile defined in resolvers, but not in schema
+/Users/aijey_omah/Documents/stream-music-api/index.js:1
+Error: Query.getAUserProfile defined in resolvers, but not in schema)
+[Mon, 28 Jun 2021 22:25:10 GMT] - [31merror[39m: uncaughtException: Query.getAUserProfile defined in resolvers, but not in schema
+/Users/aijey_omah/Documents/stream-music-api/index.js:1
+Error: Query.getAUserProfile defined in resolvers, but not in schema)
+[Mon, 28 Jun 2021 22:34:54 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:37:21 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:38:56 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:39:01 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:39:19 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:40:20 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:40:22 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:43:39 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)
+[Mon, 28 Jun 2021 22:43:42 GMT] - [32minfo[39m: 🚀🚀  smart stream Server ready at http://localhost:3040/api/v1/graphql)

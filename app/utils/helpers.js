@@ -182,9 +182,10 @@ const { SUCCESS_RESPONSE, FAIL, SUCCESS, DEFAULT_ERROR_MSG ,INTERNAL_SERVER_ERRO
    * @memberof Helpers
    * @returns { Null } -  It returns null.
    */
- export const moduleErrLogMessager =(error) => {
-    logger.error(`${error.status} - ${error.name} - ${error.message} - ${error.stack}`);
-  }
+//  export const moduleErrLogMessager =(error) => {
+//     logger.error(`${error.status} - ${error.name} - ${error.message} - ${error.stack}`);
+//   }
+  export const moduleErrLogMessager = (error, status, message) => logger.error(`${status} - ${error.name} - ${error.message} - ${message}`);
 
   /**
    * Generates a JSON response for failure scenarios.
@@ -213,7 +214,7 @@ const { SUCCESS_RESPONSE, FAIL, SUCCESS, DEFAULT_ERROR_MSG ,INTERNAL_SERVER_ERRO
     message,
     data
   });
-  export const errorResolver = (error) => {
+  export const errorResolver = (error, message) => {
     switch (error.message) {
       // case 'DUP':
       //   moduleErrLogMessager(error);
@@ -222,7 +223,7 @@ const { SUCCESS_RESPONSE, FAIL, SUCCESS, DEFAULT_ERROR_MSG ,INTERNAL_SERVER_ERRO
         moduleErrLogMessager(error);
         return sendGraphQLResponse(403, ROLE_NOT_SUFFICIENT);
       default:
-        moduleErrLogMessager(error);
+        moduleErrLogMessager(error, 500, message );
         return sendGraphQLResponse(500, DEFAULT_ERROR_MSG);
     }
   };

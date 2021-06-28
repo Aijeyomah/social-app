@@ -146,4 +146,13 @@ export const authenticate = async (_, {}, ctx) => {
         moduleErrLogMessager(e)
        sendGraphQLResponse(e)
     }
+};
+
+export const checkIfUserExist = async(_, {}, ctx) => {
+try {
+    
+} catch (error) {
+    
 }
+
+};

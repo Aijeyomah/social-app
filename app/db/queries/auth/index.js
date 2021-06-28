@@ -46,6 +46,8 @@ export default {
         user_following 
       WHERE 
         following_id= $1
+      AND 
+      user_id = $2
     `,
 
 
